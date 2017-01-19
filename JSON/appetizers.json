@@ -1,0 +1,26 @@
+[
+	{
+		"imageUrl": "img/price_list/dishes/dish1.jpg",
+		"title": "Chicken wings",
+		"text": "t’s all about flavour and fun, fun, fun. Toss fried chicken with a finger-licking sauce spiked with chilli and fresh ginger.",
+		"price": "$9.95"
+	},
+	{
+		"imageUrl": "img/price_list/dishes/dish2.jpg",
+		"title": "Dumplings",
+		"text": "Small dumplings filled with spiced lamb. Tossed in a tomato sauce and served with sumac-flavoured Greek yoghurt.",
+		"price": "$5.70"
+	},
+	{
+		"imageUrl": "img/price_list/dishes/dish3.jpg",
+		"title": "French onion soup",
+		"text": "French onion soup is deeply savoury and hearty - and cheesy croutons make it extra special!",
+		"price": "$5.80"
+	},
+	{
+		"imageUrl": "img/price_list/dishes/dish4.jpg",
+		"title": "Mini chilli pretzels",
+		"text":	"These freshly-baked savouries beat anything out of a packet.",
+		"price": "$2.80"
+	}
+]

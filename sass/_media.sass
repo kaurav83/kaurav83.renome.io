@@ -1,0 +1,452 @@
+@import "../libs/bourbon/app/assets/stylesheets/_bourbon"
+@import "vars.sass"
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	header	
+		.logo_nav
+			.logo
+				margin-top: -20px
+				margin-left: 0px
+			.top_nav
+				margin-top: -20px
+			.sb-search 
+				margin-top: -10px
+			.shop_cart
+				margin-top: -10px
+		.slider p.inner_paragraph
+			font-size: em(30px)
+		.slider
+			margin-top: -20px
+	section
+		.content_about
+			.toUpp
+		
+		.galery
+			.after_grids
+				.title_galery
+					h2.title_g
+						font-size: 2em
+					h3.under_title
+						font-size: em(12px)
+				.block_photos
+					nav
+						ul
+							li
+								margin-bottom: -10px
+								margin-right: -45px 
+								a
+									img
+										width: 40%
+									.img
+										min-width: 80%
+	
+					
+
+				
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.inner_paragraph,
+	.menu
+		display: none
+
+	.content_about
+		.toUpp
+			p img
+				margin-left: -110px
+			
+		.text_about
+			h2
+	section
+		.content_about
+			.toUpp
+		.galery
+			.after_grids
+				div.title_galery
+					margin-top: 70px
+					h2.title_g 
+						letter-spacing: none
+						font-size: 1.5em
+					h3.under_title 
+						font-size: em(12px)
+				.block_photos
+					nav
+						ul
+							li
+								margin-bottom: -10px
+								margin-right: -60px
+								
+								a
+									img
+										max-width: 70%
+										padding: 0
+										margin: 0
+	section
+		div.menu_dish
+			div.after_grids
+				div.menu_d
+					h2.title_g
+						font-size: 3em
+					h3.under_title
+					p.text_dish
+						font-size: em(12px)
+	section
+		.after_angular
+			.jondoe_block
+				.text_box
+					font-size: em(18px)
+					p.citate
+						margin-top: -100px
+					p:last-child
+						font-size: em(12px)
+				.image_cafe
+					img
+						max-width: 80%
+	section /* bottom Slider */
+		.lunch_slider
+			.text_left
+				h2.fron_of_slider
+					font-size: 2.5em
+				h3
+			div.container_slider
+				
+				.carousel-3d-container
+					
+					.carousel-3d
+						width: 100%
+						.slide-3d 
+							
+							img
+
+						.text
+							.txt
+							.txt2
+					.carousel-3d-controls
+						.carousel-3d-next
+						.carousel-3d-prev
+						
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	section .content_about
+		.after_grids
+			.toUpp
+				max-width: 100%
+			.text_about
+				h2.title_g
+					font-size: em(28px)
+
+	section
+		.content_about
+			.toUpp
+		
+		.galery
+			display: none
+			.after_grids
+				div.title_galery
+					margin-top: 110%
+					h2.title_g
+						font-size: 1.5em
+						letter-spacing: none
+					h3.under_title
+						font-size: em(10px)
+				.block_photos
+					nav
+						ul
+							li
+								margin-bottom: -10px
+								margin-right: -75px 
+								a
+									img
+										max-width: 60%
+	section
+		div.menu_dish
+			div.after_grids
+				div.menu_d
+					h2.title_g
+						font-size: 1.5em
+					h3.under_title
+					p.text_dish
+						font-size: em(10px)
+	ul.thumbs 
+		position: relative
+		left: -5%
+	
+	section
+		.after_angular
+			.jondoe_block
+				.text_box
+					font-size: em(12px)
+					p.citate
+						margin-top: -60px
+						margin-left: 40px
+					p:last-child
+						font-size: em(12px)
+						text-align: center
+						margin-left: 30px
+				.image_cafe
+					img
+						max-width: 70%
+
+
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	section 
+		.content_about
+			text-align: center
+			div.after_grids
+					.text_about
+						margin-top: 140px
+						margin-left: -170px
+						margin-right: 100px
+						text-align: left
+						min-width: 18em
+						
+						h2.title_g
+							font-size: 1.5em
+
+	section
+		.content_about
+			.toUpp
+	section	
+		.galery
+			div.after_grids
+				div.title_galery
+					margin-bottom: 0
+					h2.title_g
+						font-size: 1.5em
+						letter-spacing: em(1px)
+					h3.under_title
+						font-size: em(10px)
+				.block_photos
+					margin-top: 10px
+					nav
+						ul
+							li
+								margin-bottom: 0px
+								margin-right: 150px 
+								margin-left: -50px
+								margin-top: 0px
+								position: relative
+								left: 200px
+								a
+									img
+										min-width: 100%
+									.img
+										width: 100%
+										margin: -40px
+										
+	section
+		.menu_dish
+			.after_grids
+				margin-top: -50px
+				.menu_d
+					margin-top: -40px
+					h2.title_g
+						font-size: 1.5em
+					h3.under_title
+					p.text_dish
+						font-size: em(10px)
+				.toUpp
+					position: relative
+					top: 70px
+	
+	ul.thumbs 
+		position: relative
+		left: -12%
+	section
+		.john_doe
+			background-color: red
+			padding-top: 0px
+			padding-bottom: 0px
+			.block_doe
+				width: 100%
+				div.text_doe
+					p.citate:first-child
+						font-size: em(12px)
+					p:last-child
+						font-size: em(10px)
+				.cafe_s
+					width: 100%
+					padding-top: 0px
+					padding-bottom: 0px
+					.cafe_sits
+						min-width: 100%
+						margin-top: 160px
+						img.sits
+							min-width: 100%
+							margin-top: -100px 
+	section
+		.after_angular
+			.jondoe_block
+				.text_box
+					font-size: em(10px)
+					p.citate
+						margin-top: -60px
+						margin-left: 40px
+					p:last-child
+						font-size: em(10px)
+						text-align: center
+						margin-left: 30px
+				.image_cafe
+					margin-top: 40px
+					img
+						max-width: 70%
+	section
+		div.reservation
+			h2.title_res
+				font-size: em(14px) !important
+			div.calendar_block
+				p
+					width: 
+					input
+						font-size: em(10px) !important
+			div.time_block
+				p
+					select
+						font-size: em(10px) !important
+						option
+							font-size: em(12px) !important
+			div.sub_reservation
+				button	
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	section
+		.content_about
+			.toUpp
+		
+		.galery
+			.after_grids
+				.title_galery
+					h2
+						font-size: 1.5em
+						letter-spacing: em(1px)
+					h3
+						font-size: 0.8em
+				.block_photos
+					nav
+						ul
+							li
+								margin-bottom: -12px
+								margin-right: -90px 
+								a
+									img
+										max-width: 40%
+	section
+		.menu_dish
+			.after_grids
+				.menu_d
+					margin-top: -40px
+					h2.title_g
+						font-size: 1.5em
+					h3.under_title
+					p.text_dish
+						font-size: em(10px)
+				.toUpp
+					position: relative
+					top: 70px
+	ul.thumbs 
+		position: relative
+		left: -10%
+	
+	section
+		.after_angular
+			.jondoe_block
+				.text_box
+					font-size: em(8px)
+					p.citate
+						margin-top: -40px
+						margin-left: 40px
+					p:last-child
+						font-size: em(10px)
+						text-align: center
+						margin-left: 30px
+				.image_cafe
+					margin-top: 40px
+					img
+						max-width: 60%
+	section
+		div.reservation
+			div.title_reservation
+				h2.title_res
+					font-size: em(14px) !important
+			div.calendar_block
+				p
+					input
+						font-size: em(10px) !important
+			div.time_block
+				p
+					select
+						font-size: em(10px) !important
+						option
+							font-size: em(12px) !important
+			div.sub_reservation
+				button	
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	div.slider
+		#largeImg
+			.thumbs 
+				background: black
+				margin-top: 200px
+				li
+					position: relative
+					left: 30%
+					
+
+				
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/	
+			
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
+
+	
+

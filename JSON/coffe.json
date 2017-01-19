@@ -1,0 +1,50 @@
+[
+	{
+		"imageUrl": "img/price_list/drinks/coffe/Espresso.png",
+		"title": "Espresso",
+		"text": "",
+		"price": "$4.00"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/coffe/double_espresso.png",
+		"title": "Double Espresso",
+		"text": "",
+		"price": "$7.80"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/coffe/AMERICANO.png",
+		"title": "Americano",
+		"text": "",
+		"price": "$6.35"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/coffe/cappuccino.png",
+		"title": "Cappuccino",
+		"text":	"",
+		"price": "$4.50"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/coffe/Cafe_Latte.png",
+		"title": "Cafe Latte",
+		"text": "",
+		"price": "$5.30"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/coffe/Latte_Macchiato.png",
+		"title": "Latte Macchiato",
+		"text": "",
+		"price": "$5.10"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/coffe/Flat_White.png",
+		"title": "Flat white",
+		"text": "",
+		"price": "$7.00"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/coffe/hot_chocolate.png",
+		"title": "Hot Chocolate",
+		"text": "",
+		"price": "$6.30"
+	}
+]

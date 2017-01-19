@@ -1,0 +1,26 @@
+[
+	{
+		"imageUrl": "img/price_list/dishes/dish5.jpg",
+		"title": "Atlantic Salmon",
+		"text": "Have dinner on the table super fast with clever shortcuts and this easy salmon and Greek rice salad.",
+		"price": "$7.30"
+	},
+	{
+		"imageUrl": "img/price_list/dishes/dish6.jpg",
+		"title": "Fish tacos",
+		"text": "Fish is a healthy, low-fat taco filling, and it tastes absolutely delicious.",
+		"price": "$5.45"
+	},
+	{
+		"imageUrl": "img/price_list/dishes/dish7.jpg",
+		"title": "Sesame Tuna",
+		"text": "Sesame seeds form a tasty crust and are rich in calcium, copper and magnesium.",
+		"price": "$4.60"
+	},
+	{
+		"imageUrl": "img/price_list/dishes/dish8.jpg",
+		"title": "Parmesan chicken",
+		"text":	"This crunchy crumbed chicken tastes fabulous paired with the fresh flavours of zucchini, mint and olives.",
+		"price": "$8.35"
+	}
+]

@@ -1,0 +1,38 @@
+[
+	{
+		"imageUrl": "img/price_list/drinks/beer/Curim_Gold_Celtic_Wheat_Beer.png",
+		"title": "Curim Gold Celtic Wheat Beer 500ml",
+		"text": "Clear gold, crisp and refreshing.",
+		"price": "$8.00"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/beer/OHaras_Irish_Pale_Ale.png",
+		"title": "O’Hara’s Irish Pale Ale  500ml",
+		"text": "Lovely hoppy character in this golden ale.",
+		"price": "$8.00"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/beer/OHaras_Red_Ale.png",
+		"title": "O’Hara’s Red Ale 500ml",
+		"text": "Maltywith a touch of caramel and bitter finish.",
+		"price": "$8.00"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/beer/Tiger.png",
+		"title": "Tiger 330ml bottle",
+		"text":	"",
+		"price": "$7.50"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/beer/Bavaria_Non_Alcoholic.png",
+		"title": "Bavaria Non - Alcoholic 330ml bottle",
+		"text": "",
+		"price": "$6.30"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/beer/Heineken_Draught.png",
+		"title": "Heineken Draught 330m",
+		"text": "",
+		"price": "$4"
+	}
+]

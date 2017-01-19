@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+
+	
+	
+	
+	<!-- Bootstrap v3.3.4 Grid Styles -->
+	
+		<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+	
+	<script>loadLocalStorageCSS( "webfonts", "/css/fonts.min.css?ver=1.0.0" );</script>
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/ADM-dateTimePicker.min.css">
+
+</head>
+<body class="ishome">
+		<div class="mobile-mnu hidden-md hidden-lg">
+			<a href="#" id="toggle-mnu" class="toggle-mnu hidden-lg"><span></span></a><b>Menu</b>
+		</div>
+
+	<header>
+		
+		<div class="logo_nav">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="logo"><a href="#">Renome</a></div>
+					</div>
+					<div class="col-md-9 col-xs-9 col-sm-9">
+						<nav class="top_nav" id="top_nav">
+							<ul class="menu" id="sweeties">
+								<li><a href="#" class="first_a">Home</a></li>
+								<li><a href="#about_ind">About</a></li>
+								<li><a href="#menu_ind">Menu</a></li>
+								<li><a href="#reserve_ind">Reservations</a></li>
+						<!-- Drop-down-menu -->
+								<li class="title"><a href="#">Blog<i class="fa fa-sort-desc"></i></a>
+
+									<ul>
+										<li><a href="https://www.google.com">One Page</a></li>
+										<li><a href="#">Portfolio</a></li>
+										<li><a href="#">Shortcodes</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Shop</a></li>
+								<li><a href="#cont_ind">Contact</a></li>
+								<li class="last_item">|</li>
+							</ul>
+						</nav>
+
+					</div>
+					<div class="col-md-1">
+						<div id="sb-search" class="sb-search hidden-sm hidden-xs">
+							<form>
+								<input class="sb-search-input" placeholder="Search..." type="text" value="" name="search" id="search">
+								<input class="sb-search-submit" type="submit" value="">
+								<span class="sb-icon-search"><i class="fa fa-search"></i></span>
+							</form>
+						</div>
+						<div class="shop_cart hidden-sm hidden-xs">
+							<a href="#"><i class="fa fa-shopping-cart"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slider">
+				<p>
+					<img id="largeImg" src="img/slide_2.jpg" title="Image 3">
+					<p class="inner_paragraph">made with love <br/><span>for you</span></p>
+				</p>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-15">
+
+  							<ul id="thumbs" class="thumbs">
+    <!-- При наведении на изображение показывается встроенная подсказка браузера (title) -->
+    							<li class="point">
+     							 	<a href="img/slide_1.jpg" title="Image 2"><img src="img/circle_icon.png"></a>
+   								</li>
+    							<li class="point">
+    							  <a href="img/slide_2.jpg" title="Image 3"><img src="img/circle_icon.png"></a>
+   							 	</li>
+    							<li class="point">
+    							  <a href="img/slide_3.jpg" title="Image 4"><img src="img/circle_icon.png" ></a>
+    							</li>
+    							
+  							</ul>
+						</div>
+					</div>
+				</div>
+		</div>
+	</header>
+	<section>
+		<div class="content_about">
+			<div class="container">
+				<div class="row">
+					<div class="after_grids">
+						<div class="col-md-1"></div>
+						<div class="col-md-7 col-xs-9 col-sm-9">
+							<div class="toUpp">
+								<p><img src="img/top_image.jpg" class="ho first_img" alt="image 1"></p>
+								<p><img src="img/bottom_image.jpg" class="ho second_img"  alt="image 1"></p>
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+						<div class="col-md-4 col-xs-6 col-sm-6">
+							<div class="text_about">
+								<h2 id="about_ind" class="title_g" >About</h2>
+								<h3>we create delicious memories</h3>
+								<p>Renome it is renowned restaurant delights the senses with elegant ambiance, gracious service and delectable menus in the heart of Manhattan’s. The distinctive setting boasts contemporary furnishings and finishes atop the restaurant’s grand modern architecture. Renome offers the room for private dining where guests enjoy creative foods and sumptuous late night desserts. Is one of the few Manhattan restaurants to have a coveted 3-star Michelin rating.</p>
+							</div>
+						</div>
+							<div class="col-md-2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="galery">
+			<div class="container">
+				<div class="row">
+					<div class="after_grids">
+						<div class="col-md-1 col-xs-1 col-sm-1"></div>
+						<div class="col-md-4 col-xs-4 col-sm-4">
+							<div class="title_galery">
+								<h2 class="title_g">Galery</h2>
+								<h3 class="under_title">More about us via photos</h3>
+								<img id="block_view" src="" alt="">
+							</div>
+						</div>
+						<div class="col-md-9 col-xs-10 col-sm-10">
+							<div class="block_photos">
+								<nav>
+									<ul id="thumb">
+										<li><a href="img/galery/galery_photo1.png" title="Image 1"><img src="img/galery/galery_photo1.png" class="img"  alt="alt"></a></li>
+                                        <li><a href="img/galery/galery_photo2.png" title="Image 2"><img src="img/galery/galery_photo2.png" class="img"  alt="alt"></a></li>
+                                        <li><a href="img/galery/galery_photo3.png" title="Image 3"><img src="img/galery/galery_photo3.png" class="img"  alt="alt"></a></li>
+                                        <li><a href="img/galery/galery_photo4.png" title="Image 4"><img src="img/galery/galery_photo4.png" class="img"  alt="alt"></a></li>
+                                        <li><a href="img/galery/galery_photo5.png" title="Image 5"><img src="img/galery/galery_photo5.png" class="img" alt="alt"></a></li>
+                                        <li><a href="img/galery/galery_photo6.png" title="Image 6"><img src="img/galery/galery_photo6.png" class="img"  alt="alt"></a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu_dish">
+			<div class="container">
+				<div class="row">
+					<div class="after_grids">
+						<div class="col-md-2"></div>
+						<div class="col-md-4 col-xs-6 col-sm-6">
+							<div class="menu_d">
+								<h2 id="menu_ind" class="title_g">Menu</h2>
+								<h3 class="under_title">Delicious and beautiful</h3>
+								<p class="text_dish">In our menu you will find a great variety of delicious food that will satisfy the needs and tastes of everyone. We strive to source the highest quality ingredients for all of our dishes thereby enhancing the quality of services.</p>
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+						<div class="col-md-7 col-xs-9 col-sm-9">
+							<div class="toUpp">
+								<p><img src="img/dish_img.jpg" class="ho third_img" alt="image 1"></p>
+								<p><img src="img/agles_img.jpg" class="ho forth_img"  alt="image 1"></p>
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- list was done with help Angular -->
+	<section> 
+		<div class="menu_dish_nav">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-9">
+						<div class="m_dish">
+							<nav>
+								<ul class="dishes">
+									<li><a ui-sref="breakfast">Breakfast</a></li>
+									<li><a ui-sref="lunch">Lunch</a></li>
+									<li><a ui-sref="drinks">Drinks</a></li>
+									<li><a ui-sref="desserts">Desserts</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+		</div>
+		<div ui-view></div>  
+	</section>
+	<!-- Djon doe block -->
+	<section>
+		<div class="after_angular">
+			<div class="container">
+				<div class="row">
+					<div class="jondoe_block">
+						<div class="col-md-2"></div>
+						<div class="col-md-5 col-xs-7 col-sm-7">
+							<div class="text_box clearfix">
+								<p class="citate">"The most romantic and <br/>perfect place"</p>
+								<p>John Doe</p>
+							</div>
+						</div>
+						<div class="col-md-1 col-xs-0 col-sm-1"></div>
+						<div class="col-md-5 col-xs-8 col-sm-7">
+							<div class="image_cafe clearfix">
+								<img src="img/sits_cafe.jpg" alt="alt">
+							</div>
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Reservation -->
+	<section>
+		<div class="content_about">
+			<div class="container">
+				<div class="row">
+					<div class="after_grids">
+						<div class="col-md-1"></div>
+						<div class="col-md-7 col-xs-9 col-sm-9">
+							<div class="toUpp">
+								<p><img src="img/img_fifth.jpg" class="ho first_img" alt="image 1"></p>
+								<p><img src="img/img_sixth.jpg" class="ho second_img"  alt="image 1"></p>
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+						<div class="col-md-4 col-xs-6 col-sm-6">
+							<div class="text_about">
+								<h2 id="reserve_ind" class="title_g">reservation</h2>
+								<h3>Book your table at our restaurant now!</h3>
+								<p>When you finalize a reservation with OpenTable they will send you a confirmation email immediately.  We will also call you on the date of your reservation to confirm your table.</p><br/>
+								<p>If you do not receive an email, or do not hear from the restaurant, we would recommend calling to confirm your table and verify your reservation booking (+1 939 777 55 33).
+								</p>
+							</div>
+						</div>
+							<div class="col-md-2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="reservation">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 col-xs-3 col-sm-3"></div>
+					<div class="col-md-5 col-xs-9 col-sm-9">
+						<div class="title_reservation">
+							<h2 class="title_res">Make a reservation</h2>
+						</div>
+					</div>
+					<div class="col-md-5 col-xs-3 col-sm-3"></div>
+				</div>
+				<form action="mailto:torov440@gmail.com" enctype="text/plain" id="reserv">
+				<fieldset>
+				<div class="row">
+					<div class="col-md-3 col-xs-1 col-sm-1"></div>
+					<div class="col-md-3 col-xs-4 col-sm-4">
+						<div class="calendar_block">
+							<adm-dtp ng-model='date' full-data='date_details' >
+    							<p><p class="fa fa-calendar" aria-hidden="true" dtp-toggle><input  type='text' title="Click twice or write a date/time" ng-model='date' dtp-input /></p></p>
+   							</adm-dtp>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-5 col-sm-5">
+						<div class="time_block">
+							
+								<p class="fa fa-clock-o" aria-hidden="true">
+									<select  name="people" id="but" required>
+										<option value="12:00 PM">12:00 PM</option>
+										<option value="12:30 PM">12:30 PM</option>
+										<option value="1:00 PM">1:00 PM</option>
+										<option value="1:30 PM">1:30 PM</option>
+										<option selected value="2:00 PM">2:00 PM</option>
+										<option value="2:30 PM">2:30 PM</option>
+										<option value="3:00 PM">3:00 PM</option>
+										<option value="3:30 PM">3:30 PM</option>
+										<option value="4:00 PM">4:00 PM</option>
+										<option value="4:30 PM">4:30 PM</option>
+										<option value="5:00 PM">5:00 PM</option>
+										<option value="5:30 PM">5:30 PM</option>
+										<option value="6:00 PM">6:00 PM</option>
+										<option value="6:30 PM">6:30 PM</option>
+										<option value="7:00 PM">7:00 PM</option>
+										<option value="7:30 PM">7:30 PM</option>
+										<option value="8:00 PM">8:00 PM</option>
+										<option value="8:30 PM">8:30 PM</option>
+										<option value="9:00 PM">9:00 PM</option>
+									</select>
+								</p>
+							
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-4 col-sm-4">
+						<div class="time_block">
+							
+								<p class="fa fa-user" aria-hidden="true">
+									<select  name="people" id="but" required>
+										<option value="1 Person">1 Person</option>
+										<option selected value="2 Person">2 Person</option>
+										<option value="3 Person">3 Person</option>
+										<option value="4 Person">4 Person</option>
+										<option value="5 Person">5 Person</option>
+										<option value="6 Person">6 Person</option>
+										<option value="7 Person">7 Person</option>
+										<option value="8 Person">8 Person</option>
+										<option value="9 Person">9 Person</option>
+										<option value="10 Person">10 Person</option>
+									</select>
+								</p>
+							
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-1 col-sm-1"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-15">
+						<div class="sub_reservation">
+							<button type="submit" formaction form="reserv">Find a table</button>
+						</div>
+					</div>
+					</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="lunch_slider">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-xs-7 col-sm-7">
+							<div class="text_left">
+							<h2 class="fron_of_slider">lunch</h2>
+							<h3>of the day</h3>
+						</div>
+					</div>	
+					<div class="col-md-8 col-xs-8 col-sm-8">
+						<div ng-controller="AppController as app" class="container_slider">
+						<carousel3d
+            				ng-model="app.slides2"
+            				options="app.options2"
+            				on-selected-click="app.selectedClick(index)"
+            				on-slide-change="app.slideChanged(index)"
+            				on-last-slide="app.lastSlide(index)"
+            				on-before-change="app.beforeChange(index)">
+
+        					<carousel3d-slide ng-repeat="slide in app.slides2 track by $index" ng-style="{'background': slide.src}">
+            					<div class="text" style="padding: 20px; color: #000">
+                					<p ng-bind="slide.caption" class="txt"> </p>
+               					 	<p ng-bind="slide.day" class="txt2"> </p>
+               					</div>
+               				</carousel3d-slide>
+    					</carousel3d>
+    					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="menu_dish">
+			<div class="container">
+				<div class="row">
+					<div class="after_grids">
+						<div class="col-md-2"></div>
+						<div class="col-md-4 col-xs-6 col-sm-6"">
+							<div class="menu_d">
+								<h2 id="cont_ind" class="title_g">Contact</h2>
+								<h3 class="under_title">we welcome you in our restaurant</h3>
+								<p class="text_dish">Please feel free to contact us with any questions or to make reservations. If no one is available to take your call, please leave a message. We will contact you as soon as possible.</p>
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+						<div class="col-md-7 col-xs-9 col-sm-9"">
+							<div class="toUpp">
+								<p><img src="img/contact_foot.jpg" class="ho third_img" alt="image 1"></p>
+								<p><img src="img/contact_foot2.jpg" class="ho forth_img"  alt="image 1"></p>
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="contact_form">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h3>Write a message</h3>
+					</div>
+					<div class="col-md-6"></div>
+					<div class="col-md-4">
+						<h3>Contact details</h3>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<form id="data" action="handler.php" method="get">
+					<div class="row">
+
+						<div class="col-md-4">
+							<label for="form_fname">First Name*
+								<input type="text" name="from" form="data" id="form_fname" required>
+							</label>
+							<label for="fomr_lname">Last Name*
+								<input type="text" name="from" form="data" id="fomr_lname" required>
+							</label>
+
+						</div>
+						<div class="col-md-1"></div>
+						<div class="col-md-4">
+							<label for="form_mail">Email*
+								<input type="email" form="data" id="form_mail" required>
+							</label>
+
+							<label for="subject">Subject
+								<input type="text" form="data" id="subject">
+							</label>
+						</div>
+						<div class="col-md-1"></div>
+						<div class="col-md-4">
+							<div class="contacts">
+								<h4>Address</h4>
+								<p>355 E 5TH ST, MANHATTAN, NY 10003</p>
+							</div>
+							<div class="contacts">
+								<h4>Phone</h4>
+								<p>+1 939 777 55 33</p>
+							</div>
+							<div class="contacts">
+								<h4>email</h4>
+								<p>reservation@renome.com</p>
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<label for="textar">Message*
+								<textarea name="message" id="textar" form="data" cols="30" rows="10" required></textarea>
+							</label>
+						</div>
+						<div class="col-md-2"></div>
+						<div class="col-md-3">
+							<input type="submit" form="data" class="inp_submit" value="SEND">
+						</div>
+						<div class="col-md-4"></div>
+
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="foot_fin">
+			<div class="container">
+				<div class="row">
+					<div class="container_footer">
+						<div class="col-md-1 col-xs-1 col-sm-1">
+							<div class="renome">
+								<a href="/">Renome</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-4 col-sm-4"></div>
+						<div class="col-md-5 col-xs-5 col-sm-5">
+							<div class="copyright">
+								<p>Copyright 2015 Renome by Estetiq</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-xs-2 col-sm-2"></div>
+						<div class="col-md-3 col-xs-3 col-sm-3">
+							<div class="social_network">
+								<p>Follow US: 
+										<span><a href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a></span>
+										<span><a href="https://twitter.com/"><img src="img/twiter.png" alt=""></a></span>
+										<span><a href="https://google.com/"><img src="img/google.png" alt=""></a></span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="hidden"></div>
+
+	<script src="js/classie.js" ></script>
+	<script src="js/uisearch.js"></script>	
+	<script src="js/libs.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-ui-router.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/ADM-dateTimePicker.min.js"></script>
+	<script src="js/angular-sanitize.js"></script>
+	<script src="js/angular-swipe.js"></script>
+	<script src="js/carousel-3d.js"></script>
+	<script src="js/javascript.js"></script>
+
+	<script>new UISearch( document.getElementById( 'sb-search' ) );</script>
+	
+	
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	
+	
+	
+</body>
+</html>

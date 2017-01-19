@@ -1,0 +1,20 @@
+[
+	{
+		"imageUrl": "img/price_list/dishes/dish9.jpg",
+		"title": "Seared scallops",
+		"text": "Escape the hustle and bustle with this exotic breakfast that will satisfy your taste buds.",
+		"price": "$3.80"
+	},
+	{
+		"imageUrl": "img/price_list/dishes/dish10.jpg",
+		"title": "Poached salmon",
+		"text": "Decidedly gourmet poached salmon dish with a zingy watercress mayonnaise.",
+		"price": "$9.25"
+	},
+	{
+		"imageUrl": "img/price_list/dishes/dish11.jpg",
+		"title": "Green curry",
+		"text": "This balance of sweet, sour and salty flavours is a hallmark of Thai cooking.",
+		"price": "$7.70"
+	}
+]

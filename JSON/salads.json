@@ -1,0 +1,20 @@
+[
+	{
+		"imageUrl": "img/price_list/dishes/dish12.jpg",
+		"title": "Lobster salad",
+		"text": "A simple lobster salad with butter and just a hint of mayonnaise so that you can still taste the sweet lobster meat.",
+		"price": "$6.30"
+	},
+	{
+		"imageUrl": "img/price_list/dishes/dish13.jpg",
+		"title": "Chicken & orange salad",
+		"text": "With juicy oranges and a yoghurt dressing, this chicken salad is a treat on any spring table.",
+		"price": "$8.50"
+	},
+	{
+		"imageUrl": "img/price_list/dishes/dish14.jpg",
+		"title": "Winter salad",
+		"text": "This is a simple winter salad,  fresh and crisp.",
+		"price": "$4.15"
+	}
+]

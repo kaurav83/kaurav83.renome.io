@@ -1,0 +1,26 @@
+[
+	{
+		"imageUrl": "img/price_list/dessert/lunch/Sour_cream_cake.png",
+		"title": "Sour cream cake",
+		"text": "Buttermilk sorbet, sauce fudge.",
+		"price": "$10.00"
+	},
+	{
+		"imageUrl": "img/price_list/dessert/lunch/Chocolate_gelee.png",
+		"title": "Chocolate gelee and torte",
+		"text": "Sea buckthorn, pine nut nougatine, hay caramel and ice cream.",
+		"price": "$10.00"
+	},
+	{
+		"imageUrl": "img/price_list/dessert/lunch/meringue_pie.png",
+		"title": "Verjuice meringue pie",
+		"text": "Cacao nibs ice cream",
+		"price": "$10.00"
+	},
+	{
+		"imageUrl": "img/price_list/dessert/lunch/Cheesecake.png",
+		"title": "Cheesecake",
+		"text":	"rosehip puree, strawberry and lemongrass sorbet.",
+		"price": "$10.00"
+	}
+]

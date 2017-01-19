@@ -1,0 +1,68 @@
+[
+	{
+		"imageUrl": "img/price_list/drinks/juices/grape.png",
+		"title": "Grape juice",
+		"text": "",
+		"price": "$2.00"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/juices/peach.png",
+		"title": "Peach juice",
+		"text": "",
+		"price": "$2.80"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/juices/banan.png",
+		"title": "Banan juice",
+		"text": "",
+		"price": "$3.35"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/juices/papaya.png",
+		"title": "Papaya juice",
+		"text":	"",
+		"price": "$4.10"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/juices/tomato.png",
+		"title": "Tomato juice",
+		"text": "",
+		"price": "$2.60"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/juices/apple.png",
+		"title": "Apple juice",
+		"text": "",
+		"price": "$3.30"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/juices/strawberry.png",
+		"title": "Strawberry juice",
+		"text": "",
+		"price": "$5.90"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/juices/orange.png",
+		"title": "Orange juice",
+		"text": "",
+		"price": "$3.30"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/juices/grapefruit.png",
+		"title": "Grapefruit juice",
+		"text": "",
+		"price": "$4.50"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/juices/apricot.png",
+		"title": "Apricot juice",
+		"text": "",
+		"price": "$3.10"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/juices/raspberry.png",
+		"title": "Raspberry juice",
+		"text": "",
+		"price": "$3.40"
+	}
+]

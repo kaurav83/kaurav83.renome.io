@@ -1,0 +1,44 @@
+[
+	{
+		"imageUrl": "img/price_list/dessert/dinner/Kalingo_chocolate_torte.png",
+		"title": "Kalingo chocolate torte",
+		"text": "sea buckthorn gel, vanilla chantilly, flax seed nougatine, hay caramel and ice cream.",
+		"price": "$17.00"
+	},
+	{
+		"imageUrl": "img/price_list/dessert/dinner/Rooibos_gele.png",
+		"title": "Rooibos gelee",
+		"text": "hazelnut cake, roasted lemon, rooibos and milk sorbet.",
+		"price": "$17.00"
+	},
+	{
+		"imageUrl": "img/price_list/dessert/dinner/Matcha_Green_Tea_Meringue.png",
+		"title": "Matcha tea meringue",
+		"text": "aerated Bahibe chocolate ganache, toasted rice creme anglaise, tarragon et almond powder, raspberry granite.",
+		"price": "$17.00"
+	},
+	{
+		"imageUrl": "img/price_list/dessert/dinner/clover_pudding.png",
+		"title": "White chocolate and sweet clover pudding",
+		"text":	"pine nut brittle, honey flan, buckwheat crumble, chamomile sorbet.",
+		"price": "$17.00"
+	},
+	{
+		"imageUrl": "img/price_list/dessert/dinner/alcohol_coffee.png",
+		"title": "Alcoholised coffee with Sortilège and Drambuie",
+		"text": "maple syrup, molasses whipped cream.",
+		"price": "$12.00"
+	},
+	{
+		"imageUrl": "img/price_list/dessert/dinner/oolong_teas.png",
+		"title": "Tasting of two Oolong teas",
+		"text": "",
+		"price": "$14.00"
+	},
+	{
+		"imageUrl": "img/price_list/dessert/dinner/almond_cake.png",
+		"title": "Olive oil and almond cake",
+		"text": "lemon curd, black sesame, iced sour cream.",
+		"price": "$16.00"
+	}
+]

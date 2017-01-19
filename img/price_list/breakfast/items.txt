@@ -1,0 +1,56 @@
+breakfast1.jpg
+Dolmathes
+grape leaves stuffed with rice, dill & mint
+$9.00
+
+breakfast2.jpg
+Feta sto Fourno 
+Greek feta baked with tomato, capers & Metaxa brandy   
+$7.95 
+
+breakfast3.jpg
+Bizelosalata
+sweet green peas & feta with scallions & dill   
+$8.20
+
+breakfast4.jpg
+Gigantes
+oven-baked giant beans withtomato sauce, olive oil & herbed feta   
+$6.75 
+
+breakfast5.jpg
+Souvla Tis Emeras 
+seasonal roasted potatoes with oregano, lemon and olive oil
+$4.55
+
+
+pasta
+pasta1.jpg
+Cajun Chicken Pasta
+Chicken dredged in Cajun spices, sauteed with vegetables, and served in a basil-cream sauce over linguine is fit for royalty
+$6.40
+
+pasta2.jpg
+Penne With Spinach
+pasta with a spinach-blue cheese sauce 
+$5.90
+
+pasta3.jpg 
+Spaghetti 
+Spaghetti with garlic butter, bacon and prawns pasta
+$8.10
+
+pasta3.jpg 
+Mushroom and pancetta spaghetti
+A little pancetta goes a long way to adding richness and depth to the flavours in this tasty pasta dish
+5.00
+
+pasta4.jpg 
+Amatriciana
+Feed the family with this creative tomato pasta meal, starring salty prosciutto and spicy chilli
+$10.35
+
+pasta5.jpg 
+Zucchini
+Pea and mint spaghetti
+$7.60

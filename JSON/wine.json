@@ -1,0 +1,56 @@
+[
+	{
+		"imageUrl": "img/price_list/drinks/wine/Dom_F.E._Hug_el_et_Fils.png",
+		"title": "Dom F.E. Hug el et Fils, 'Gentil'  Alsace ‘10",
+		"text": "Full and fruity with a dry finish.",
+		"price": "$9.00"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/wine/Sauvignon_St_Bris.png",
+		"title": "Sauvignon - St. Bris ‘10",
+		"text": "Crisp sauvignon from vineyards near Chablis.",
+		"price": "$12.50"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/wine/Pinot_Gris.png",
+		"title": "Sipp Mack, Pinot Gris Reserve, Alsace ‘12",
+		"text": "Melon and orange fruit with a refreshing finish.",
+		"price": "$13.85"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/wine/ca-dei-frati.png",
+		"title": "Ca dei Frati, Lugana, Veneto ‘10",
+		"text":	"Rounded and ripe from the shores of Lake Garda.",
+		"price": "$14.50"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/wine/jose-pariente-fermentado-barrica.png",
+		"title": "Jose Pariente, Verdejo, Rueda ‘10",
+		"text": "Aromatic, lime and elderflower; crisp and refreshing.",
+		"price": "$11.90"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/wine/Richter.png",
+		"title": "Richter, 'Zeppelin' Riesling, Mosel ‘09",
+		"text": "Off dry with honeysuckle & citrus, refreshing acidity and low alcohol level.",
+		"price": "$11.50"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/wine/Francois_Charles.png",
+		"title": "Francois Charles, Cotes de Beaune ‘10",
+		"text": "Very approachable, medium bodied with.",
+		"price": "$15.90"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/wine/Remondo.png",
+		"title": "Remondo, 'Montesa' Rioja Crianza ‘07",
+		"text": "Award winning winemaker, soft and ripe.",
+		"price": "$12.65"
+	},
+	{
+		"imageUrl": "img/price_list/drinks/wine/belnero.png",
+		"title": "Banfi, 'Belnero' Montalcino I.G.T. ‘06",
+		"text": "Complexity of good Brunello - fraction of the price.",
+		"price": "$14.60"
+	}
+]

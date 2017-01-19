@@ -1,0 +1,833 @@
+@import "vars.sass"
+@import "media"
+
+@import "../libs/bourbon/app/assets/stylesheets/_bourbon"
+@import "../libs/bourbon/app/assets/stylesheets/_bourbon-deprecated-upcoming"
+@import "../libs/font-awesome/scss/font-awesome"
+@import "../libs/jQuery.mmenu/dist/css/jquery.mmenu.all"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+.mm-menu.mm-offcanvas
+	z-index: 2
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.5
+	font-family: sans-serif
+	overflow-x: hidden
+	color: #111
+.hidden
+	display: none
+.container
+	transition: .7s
+.row
+	transition: .7s
+
+*html .clearfix
+	height : 1%
+.clearfix
+	display : inline-block
+
+.clearfix:after
+	content: "."
+	display: block
+	clear: both
+	visibility: hidden
+	height: 0
+	font-size  : 0
+
+.logo_nav 
+	margin: 40px 0;
+	.logo a
+		font-family: "PacificoRegular", sans-serif
+		font-size: em(25px)
+		color: black
+		text-decoration: none
+		outline: none
+	.top_nav
+		ul
+			list-style-type: none
+			padding: 0
+			margin: 0
+			li
+				display: inline-block
+				padding-right: 10px
+				margin-right: 10px
+				margin-top: 10px
+				a 
+					text-decoration: none
+					font-family: "MontserratSubrayadaBold", sans-serif
+					font-size: em(14px)
+					color: black
+					outline: none
+					&:hover 
+						color: $main-color
+						transition: .5s	
+				.first_a
+					color: $main-color	
+			.last_item
+				margin: 0
+				padding: 0
+				display: inline
+				
+/* DROP DOWN MENU */
+.menu 
+	.fa-sort-desc
+		left: 3px
+		position: relative
+		bottom: 2px
+		transition: .7s	
+.menu ul
+	margin: 20px 0
+	display: none
+	
+.menu.open ul
+	display: block
+.menu .title ul 
+	position: absolute
+	margin-top: 10px
+	li
+		width: 110px
+		margin-bottom: -5px
+		margin-top: -5px
+		z-index: 10
+		position: relative
+		background: white
+		text-align: center
+		padding: 10px 0
+		display: block
+
+	
+/* FORM OF SEARCHING */
+	
+.sb-search
+	position: relative
+	width: 0%
+	transform: width .3s
+	transition: .7s
+	margin-left: -40px
+	margin-top: 10px
+	.sb-search-input
+		position: absolute;
+		top: 0
+		right: 0
+		border: none
+		outline: none
+		background: white;
+		width: 1900%
+	.sb-icon-search,
+	.sb-search-submit
+		display: block
+		position: absolute
+		right: 0
+		top: 0
+		padding: 0
+		margin: 0
+		text-align: center
+		cursor: pointer
+	.sb-search-submit
+		background: white
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+		filter: alpha(opacity=0)
+		opacity: 0
+		color: transparent
+		border: none
+		outline: none
+		z-index: -1
+	.sb-icon-search
+		color: black
+		background: white
+		font-size: 1.1em
+		padding: 0 5px
+.sb-search.sb-search-open,
+.no-js .sb-search
+	width: 80%
+
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search
+	background:	#985e5b
+	color: white
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit
+	z-index: 90	
+/* END SEARCH */
+
+.shop_cart 
+	a
+		color: #000
+	
+	
+/* SLIDER */
+.slider
+	p
+	position: relative
+	.inner_paragraph
+		color: white
+		max-width: 24% 
+		font-family: "Axis", sans-serif
+		font-size: em(35px)
+		position: absolute
+		left: 730px
+		bottom: 80px
+		line-height: em(15px)
+		span
+			font-family: "Montserrat-Bold"
+			font-size: em(10px) 
+			color: #985e5b
+#largeImg
+	width: 100%
+	padding: 5px
+	z-index: 0
+ul.thumbs
+	a
+		width: 15px
+		height: 15px
+		outline: none
+		float: left
+		margin-left: 10px
+		transition: .2s
+			
+	li
+		list-style-type: none
+		text-align: center
+		position: relative
+		left: 45%
+		margin-top: -10px
+		img
+			width: 100%
+			&:hover
+				box-shadow: 0px 0px 2px 1px #333
+				border-radius: 40px
+				transition: .3s
+
+
+/* END SLIDER */
+/* MOBILE MENU */
+
+.toggle-mnu
+	display: block
+	width: 28px
+	height: 28px
+	padding-top: 10px
+	margin-left: 10px
+	float: left
+	outline: none
+	span:after, span:before 
+    	content: ""
+    	position: absolute
+    	left: 0
+    	top: 9px
+	span:after
+    	top: 18px
+	span 
+    	position: relative
+    	display: block
+	span, span:after, span:before
+    	width: 100%
+    	height: 2px
+    	background-color: $main-color
+    	transition: all 0.3s
+    	backface-visibility: hidden
+    	border-radius: 2px
+	&.on span 
+    	background-color: transparent
+	&.on span:before 
+    	transform: rotate(45deg) translate(-1px, 0px)
+	&.on span:after 
+    	transform: rotate(-45deg) translate(6px, -7px)
+
+.mobile-mnu
+	cursor: pointer
+	background: linear-gradient(#ccc, #fff, #ccc)
+	position: relative
+	z-index: 2
+	b
+		display: block
+		text-align: center
+		padding: 10px
+		font-family: "Axis", sans-serif
+
+
+/* BEGIN TO DO CONTENT */
+section .content_about
+	margin-top: 70px
+	.after_grids
+		margin: 0 auto
+		width: 100%
+		.toUpp
+			margin-left: 100px /* top up images */
+			margin-top: -60px
+			padding: 5px
+			width: 80%
+			p img
+				max-width: 25em
+				width: 100%
+				cursor: pointer
+				&:hover
+					border: 1px solid #fff transparent
+					box-shadow: 0 0 1px 1px #ccc
+			.first_img
+				position: relative
+				left: 50px
+				top: 50px 
+				transition: .1s
+			.second_img
+				position: relative
+				bottom: 100px
+				margin-top: 20px
+		.text_about
+			width: 100%
+			max-width: 18em
+			margin-left: 0px
+			margin-right: 50px
+			text-align: left
+
+
+			h2
+				font-family: "Axis", sans-serif
+				font-size: em(50px)
+				text-transform: lowercase
+				letter-spacing: em(3px)
+			h3
+				font-family: "Montserrat-Bold", sans-serif
+				font-size: em(12px)
+				text-transform: uppercase
+				color: $main-color
+				margin-top: 0px
+			p
+				font-family: "Axis", sans-serif
+				font-size: em(12px)
+			
+
+/* Second block of content */
+section
+	.galery
+		background-color: #f7f7f7
+		.after_grids
+			.title_galery
+				margin-top: 85%
+				margin-bottom: 215px
+				margin-left: 40px
+				h2
+					font-family: "Axis", sans-serif
+					font-size: em(50px)
+					text-transform: lowercase
+					letter-spacing: em(3px)
+				h3
+					font-family: "Montserrat-Bold", sans-serif
+					font-size: em(12px)
+					text-transform: uppercase
+					color: $main-color
+					margin-top: 0
+			.block_photos
+				margin-top: 100px
+				margin-left: 50px
+				nav
+					ul
+						li
+							list-style-type: none
+							display: inline-block
+							padding-right: 15px
+							padding-bottom: 15px
+							img
+								width: 50%
+								padding: 0
+
+								
+							.img
+								min-width: 100%
+								&:hover
+									box-shadow: 0 0 5px 1px #555
+									border: transparent
+			.moveImg
+				margin-top: 50px
+				margin-left: -60px
+				text-align: center
+				margin-bottom: 100px
+				transition: 0.3s
+				#block_view
+					width: 100%
+					height: 100%
+					text-align: center
+					transition: 0.3s
+					border: 2px solid #fff;
+
+							
+/* Third block of content */
+
+section
+	.menu_dish
+		margin-top: 100px
+		margin-bottom: -10px
+		.after_grids
+			.menu_d
+				text-align: right
+				padding: 5px
+				h2
+					font-family: "Axis", sans-serif
+					font-size: em(50px)
+					text-transform: lowercase
+					letter-spacing: em(3px)
+					margin-right: -8px
+				h3
+					font-family: "Montserrat-Bold", sans-serif
+					font-size: em(12px)
+					text-transform: uppercase
+					color: $main-color
+					margin-top: 0
+				p
+					font-family: "Axis", sans-serif
+					font-size: em(12px)
+			.toUpp
+				margin-left: 0px /* top up images */
+				margin-top: -60px
+				padding: 5px
+				width: 80%
+				p img
+					max-width: 25em
+					width: 100%
+					cursor: pointer
+
+					&:hover
+						border: 1px solid #fff transparent 
+						box-shadow: 0 0 1px 1px #ccc
+
+				.third_img
+					position: relative
+					left: 50px
+					top: 50px 
+					transition: .1s
+				.forth_img
+					position: relative
+					bottom: 100px
+					margin-top: 20px
+
+/* The menu of dishes and drinks */
+section
+	.menu_dish_nav
+		border-bottom: 1px solid #ebebeb
+		.m_dish
+			margin-top: 20px
+			nav
+				ul.dishes
+					list-style-type: none
+					width: 100%
+					text-align: center
+					li
+						display: inline-block
+						margin: 0 45px
+						a
+							text-decoration: none
+							font-family: "Montserrat-Bold", sans-serif
+							font-size: em(12px)
+							text-transform: uppercase
+							color: black
+							outline: none
+							&:hover
+								color: $main-color
+								border-bottom: em(4px) solid $main-color 
+								padding-bottom: 10px
+		
+.paperony
+	margin-top: 40px		
+	ul
+		width: 100%
+		text-align: center
+		.inner_link
+			list-style-type: none
+			display: inline-block
+			margin: 20px 20px
+			a	
+				width: 100%
+				color: black
+				outline: none
+				display: block
+				text-decoration: none
+				font-family: "StreetwearRegular", sans-serif
+				font-size: em(22px)
+				&:hover
+					color: #5c985b
+.conainer_dish
+	text-align: center
+	margin-top: 30px
+	.text_dish
+		h4
+			font-family: "Montserrat-Bold", sans-serif
+			font-size: em(14px)
+		p
+			font-family: "Montserrat-Bold", sans-serif
+			font-size: em(12px)
+	.img_dish
+		text-align: center
+	.price_dish
+		font-size: em(25px)
+		font-family: "JaapokkienchanceRegular", sans-serif
+/* Djon Doe block */
+section
+	.after_angular
+		margin-top: 130px
+		background-color: #f7f7f7
+		.jondoe_block
+			width: 100%
+			.text_box
+				text-align: center
+				position: relative
+				top: 11em
+				float: left
+				margin: 0 auto
+				width: 100%
+				p.citate
+					font-size: em(25px)
+					font-family: "Montserrat-Bold", sans-serif
+				p:last-child
+					font-size: em(12px)
+					font-family: "Axis", sans-serif
+					text-transform: uppercase
+			.image_cafe
+				position: relative
+				top: -5em
+				float: right
+				left: 50px
+				img
+					width: 100%
+					min-width: 50%
+
+/* for Reservation form */
+//Calendar, time and people
+section
+	div.reservation
+		div.title_reservation
+			text-align: center
+			margin-top: -20px
+			margin-bottom: 60px
+			h2.title_res
+				font-family: "Montserrat-Bold", sans-serif
+				font-size: em(20px)
+				text-transform: uppercase
+		div.calendar_block
+			width: 75%
+			p
+				margin: 0
+				padding: 0
+				border-radius: 0
+				width: 90%
+				border: none
+				text-align: center
+				input
+					text-align: center
+					padding: 0
+					width: 90%
+					cursor: pointer
+					font-family: "Montserrat-Bold", sans-serif
+					font-size: em(15px)
+					border: none
+					outline: none
+
+			div.gregorian
+				display: none	
+				p.gregorian
+					display: none
+				p.jalali
+					display: none
+		div.time_block
+			text-align: center
+			width: 70%
+			p
+				width: 90%
+				text-align: center
+				select
+					border: none
+					text-align: center
+					width: 70%
+					font-family: "Montserrat-Bold", sans-serif
+					font-size: em(15px)
+					outline: none
+					cursor: pointer
+					option
+						text-align: center
+		div.sub_reservation
+			text-align: center
+			margin-top: 40px
+			button
+				background-color: #1e2633
+				padding: 10px 30px
+				font-family: "Montserrat-Bold", sans-serif
+				font-size: em(11px)
+				color: #fff
+				text-transform: uppercase
+				border: none
+				outline: none
+/* Lunch Slider */
+section
+	.lunch_slider
+		background-color: #f7f7f7
+		margin-top: 100px
+		width: 100%
+		.text_left
+			margin-top: 230px
+			text-align: center
+			h2
+				font-family: "Axis", sans-serif
+				font-size: em(50px)
+				letter-spacing: 0.1875em
+			h3
+				font-family: "Montserrat-Bold", sans-serif
+				font-size: em(12px)
+				color: $main-color
+				text-transform: uppercase
+		div.container_slider
+			margin-top: 100px
+			margin-bottom: 60px
+/* Slider */
+.carousel-3d-container
+	width: 100%
+	height: 100%
+	overflow: hidden
+	position: relative
+	z-index: 0
+	margin: 0px auto
+	.carousel-3d
+		position: relative
+		margin: 0 auto
+		-webkit-transform-style: preserve-3d
+		-moz-transform-style: preserve-3d
+		-o-transform-style: preserve-3d
+		-ms-transform-style: preserve-3d
+		transform-style: preserve-3d
+		div.slide-3d
+		.text
+			position: absolute
+			top: 320px
+			width: 100%	
+			.txt
+				float: left
+				font-family: "Montserrat-Bold", sans-serif
+				font-size: 15px
+				color: #1e2633
+			.txt2
+				float: right
+				font-family: "StreetwearRegular", sans-serif
+				font-family: 20px
+				color: #dcdee0
+/* Controls slider */
+.carousel-3d-controls
+	position: absolute
+	top: 28%
+	left: 3%
+	width: 0
+	height: auto
+	z-index: 9099
+	.carousel-3d-next
+		left: 0
+	.carousel-3d-prev
+		right: 0
+	.arrow-right,
+	.arrow-left
+		height: 64px
+		width: 32px
+	.carousel-3d-next:hover,
+	.carousel-3d-prev:hover
+		cursor: pointer
+	.arrow-left:before
+		font-family: "FontAwesome"
+		font-size: 25px
+		content: '\f104'
+		display: block
+		position: absolute
+		z-index: 2
+		background-color: #edeff2
+		padding: 10px 25px
+		cursor: pointer
+	.arrow-right:before
+		font-family: "FontAwesome"
+		font-size: 25px
+		content: '\f105'
+		display: block
+		position: absolute
+		z-index: 2
+		background-color: #edeff2
+		padding: 10px 25px
+		cursor: pointer
+	.arrow-left:hover:before,
+	.arrow-right:hover:before
+		color: #fff
+		background-color: #985e5b
+		transition: 0.3s
+
+/* Form */
+
+section
+	text-align: center
+	.contact_form
+		width: 100%
+		text-align: left
+		h3
+			color: $main-color
+			font-family: "Montserrat-Bold", sans-serif
+			font-size: em(20px)
+			text-transform: uppercase
+		form
+			margin-top: 20px
+			label
+				font-family: "Montserrat-Bold", sans-serif
+				font-size: em(15px)
+				color: #1e2633
+				margin-top: 20px
+				input
+					border: none
+					border-bottom: 3px solid #f5f7fa
+					width: 100%
+					height: auto
+					font-family: sans-serif
+					padding-left: 70px
+					
+				input:focus 
+					border-color: $main-color
+				
+				textarea
+					width: 100%
+					min-width: em(600px)
+					height: 2em
+					border: none
+					border-bottom: 3px solid #f5f7fa
+					&:focus
+						border-color: $main-color
+			input.inp_submit
+				padding: 8px 40px;
+				border: none
+				font-family: "Montserrat-Bold", sans-serif
+				font-size: em(15px)
+				color: #1e2633
+				margin-left: 0
+				margin-top: 30px
+				&:focus
+					
+				&:hover
+					
+					color: $main-color
+					box-shadow: 0px 0px 1px 1px #ccc
+			.contacts
+				margin-top: 30px
+				h4
+					font-family: "Axis", sans-serif
+					font-size: em(15px)
+					color: $main-color
+					text-transform: uppercase
+					line-height: 0	
+				p
+					font-family: "Montserrat-Bold", sans-serif
+					font-size: em(12px)
+					color: #1e2633
+					text-transform: uppercase
+			.error input, 
+			.error textarea
+				border: 1px solid red
+			.error
+				color: red
+/* Footer */
+footer
+	.foot_fin
+		margin-top: 100px
+		background-color: #edeff2
+		.container_footer
+			margin-top: 45px
+			.renome
+				margin-bottom: 45px
+
+				a
+					font-family: "PacificoRegular", sans-serif
+					font-size: em(20px)
+					color: #1e2633
+					outline: none
+			.copyright
+				margin-bottom: 45px	
+				p
+					font-family: "Axis", sans-serif
+					font-size: em(12px)
+					color: #1e2633
+					text-transform: uppercase
+					text-align: center
+			.social_network
+				margin-bottom: 45px
+				p
+					font-family: "Montserrat-Bold", sans-serif
+					font-size: em(12px)
+					color: #1e2633
+					text-transform: uppercase
+					span
+						margin-left: 5px
+						a 
+							outline: none
+							img
+								&:hover
+									transform: scale(1.1)
+
+				
+					
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+				
+			
+				
+
+
+
+
+						
+		
+
+
+
+
+
+
+
+
+ 	
+
+
+

@@ -1,0 +1,75 @@
+http://www.restaurant-toque.com/en/dinner-menu
+Desserts
+	lanch: 
+
+    Kalingo chocolate torte
+    17 $
+
+    sea buckthorn gel, vanilla chantilly, flax seed nougatine, hay caramel and ice cream
+
+    —
+    
+    Rooibos gelee
+    17 $
+
+    hazelnut cake, roasted lemon, rooibos and milk sorbet
+
+    —
+    
+    Matcha tea meringue
+    17 $
+
+    aerated Bahibe chocolate ganache, toasted rice creme anglaise, tarragon et almond powder, raspberry granite
+
+    —
+    
+    White chocolate and sweet clover pudding
+    17 $
+
+    pine nut brittle, honey flan, buckwheat crumble, chamomile sorbet
+
+    —
+    
+    Alcoholised coffee with Sortilege and Drambuie
+    12 $
+	maple syrup, molasses whipped cream
+
+    _
+
+    Tasting of two Oolong teas
+    14 $
+    
+    _	
+
+    Olive oil and almond cake
+    16 $
+
+    lemon curd, black sesame, iced sour cream
+
+    
+    dinner:
+Sour cream cake
+10 $
+
+buttermilk sorbet, sauce fudge
+
+—
+
+Chocolate gelee and torte
+10 $
+
+sea buckthorn, pine nut nougatine, hay caramel and ice cream
+
+—
+
+Verjuice meringue pie
+10 $
+
+cacao nibs ice cream
+
+—
+
+Cheesecake
+10 $
+
+rosehip puree, strawberry and lemongrass sorbet

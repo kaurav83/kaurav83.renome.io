@@ -1,0 +1,32 @@
+[
+	{
+		"imageUrl": "img/price_list/breakfast/pasta1.png",
+		"title": "Cajun Chicken Pasta",
+		"text": "Chicken dredged in Cajun spices, sauteed with vegetables, and served in a basil-cream sauce over linguine is fit for royalty.",
+		"price": "$6.40"
+	},
+	{
+		"imageUrl": "img/price_list/breakfast/pasta2.png",
+		"title": "Penne With Spinach",
+		"text": "Pasta with a spinach-blue cheese sauce.",
+		"price": "$5.90"
+	},
+	{
+		"imageUrl": "img/price_list/breakfast/pasta3.png",
+		"title": "Spaghetti",
+		"text": "Spaghetti with garlic butter, bacon and prawns pasta.",
+		"price": "$8.10"
+	},
+	{
+		"imageUrl": "img/price_list/breakfast/pasta4.png",
+		"title": "Amatriciana",
+		"text":	"Feed the family with this creative tomato pasta meal, starring salty prosciutto and spicy chilli.",
+		"price": "$10.35"
+	},
+	{
+		"imageUrl": "img/price_list/breakfast/pasta5.png",
+		"title": "Zucchini",
+		"text":	"Pea and mint spaghetti.",
+		"price": "$7.00"
+	}
+]

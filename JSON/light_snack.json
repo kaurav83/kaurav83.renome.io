@@ -1,0 +1,38 @@
+[
+	{
+		"imageUrl": "img/price_list/breakfast/breakfast1.png",
+		"title": "Dolmathes",
+		"text": "grape leaves stuffed with rice, dill & mint.",
+		"price": "$9.00"
+	},
+	{
+		"imageUrl": "img/price_list/breakfast/breakfast2.png",
+		"title": "Feta sto Fourno",
+		"text": "Greek feta baked with tomato, capers & Metaxa brandy.",
+		"price": "$7.95"
+	},
+	{
+		"imageUrl": "img/price_list/breakfast/breakfast3.png",
+		"title": "Bizelosalata",
+		"text": "Sweet green peas & feta with scallions & dill.",
+		"price": "$8.20"
+	},
+	{
+		"imageUrl": "img/price_list/breakfast/breakfast4.png",
+		"title": "Gigantes",
+		"text":	"Oven-baked giant beans withtomato sauce, olive oil & herbed feta.",
+		"price": "$6.75"
+	},
+	{
+		"imageUrl": "img/price_list/breakfast/breakfast5.png",
+		"title": "Souvla Tis Emeras",
+		"text":	"Seasonal roasted potatoes with oregano, lemon and olive oil.",
+		"price": "$4.55"
+	},
+	{
+		"imageUrl": "img/price_list/breakfast/breakfast6.png",
+		"title": "Sto withtomato",
+		"text":	"Olive oil & herbed feta freshly-baked savouries beat anything out of a packet.",
+		"price": "$5.40"
+	}
+]

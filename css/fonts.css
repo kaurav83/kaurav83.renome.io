@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "AxisBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/AxisBold/AxisBold.eot?#iefix") format("embedded-opentype"), url("../fonts/AxisBold/AxisBold.woff") format("woff"), url("../fonts/AxisBold/AxisBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Axis";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Axis/Axis.eot?#iefix") format("embedded-opentype"), url("../fonts/Axis/Axis.woff") format("woff"), url("../fonts/Axis/Axis.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "JaapokkienchanceRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/JaapokkienchanceRegular/JaapokkienchanceRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/JaapokkienchanceRegular/JaapokkienchanceRegular.woff") format("woff"), url("../fonts/JaapokkienchanceRegular/JaapokkienchanceRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "PacificoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PacificoRegular/pacifico.eot?#iefix") format("embedded-opentype"), url("../fonts/PacificoRegular/pacifico.woff") format("woff"), url("../fonts/PacificoRegular/pacifico.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "StreetwearRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/StreetwearRegular/streetwear.eot?#iefix") format("embedded-opentype"), url("../fonts/StreetwearRegular/streetwear.woff") format("woff"), url("../fonts/StreetwearRegular/streetwear.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "MontserratSubrayadaBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MontserratSubrayadaBold/montserratsubrayada-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/MontserratSubrayadaBold/montserratsubrayada-bold.woff") format("woff"), url("../fonts/MontserratSubrayadaBold/montserratsubrayada-bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "MontserratSubrayadaRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MontserratSubrayadaRegular/montserratsubrayada-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MontserratSubrayadaRegular/montserratsubrayada-regular.woff") format("woff"), url("../fonts/MontserratSubrayadaRegular/montserratsubrayada-regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Bold/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold/Montserrat-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.ttf") format("truetype"); }
